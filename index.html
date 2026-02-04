@@ -1,11 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Redirigint...</title>
-    <meta http-equiv="refresh" content="0; url=https://script.google.com/a/macros/iesarxiduc.net/s/AKfycbysqIkwtasncwiY82RX73Cu7nUA-nZOaL9AL2SQZ64TJq6dwpOR9ea0MrOxU-3N29Tt/exec">
-  </head>
-  <body>
-    <p>Redirigint a l'Inventari</p>
-  </body>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <title>Inventari IES Arxiduc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Redirección -->
+  <meta http-equiv="refresh" content="1.2; url=https://script.google.com/a/macros/iesarxiduc.net/s/AKfycbysqIkwtasncwiY82RX73Cu7nUA-nZOaL9AL2SQZ64TJq6dwpOR9ea0MrOxU-3N29Tt/exec">
+
+  <style>
+    :root{
+      --bg:#0b1220;
+      --text:#f3f4f6;
+      --muted:#a7b0bf;
+      --yellow:#facc15; /* amarillo */
+    }
+
+    *{ box-sizing:border-box }
+
+    body{
+      margin:0;
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background: radial-gradient(circle at top, #111827, var(--bg));
+      color:var(--text);
+    }
+
+    .container{
+      text-align:center;
+      padding:40px 24px;
+    }
+
+    .logo{
+      max-width:160px;
+      margin:0 auto 32px;
+    }
+
+    .logo img{
+      width:100%;
+      height:auto;
+      display:block;
+    }
+
+    .spinner{
+      width:72px;
+      height:72px;
+      margin:0 auto 28px;
+      border-radius:50%;
+      border:6px solid rgba(250,204,21,.25);
+      border-top-color: var(--yellow);
+      animation: spin 0.9s linear infinite;
+    }
+
+    @keyframes spin{
+      to{ transform: rotate(360deg); }
+    }
+
+    h1{
+      font-size:20px;
+      font-weight:800;
+      margin:0 0 8px;
+      letter-spacing:.3px;
+    }
+
+    p{
+      margin:0;
+      font-size:14px;
+      color:var(--muted);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- LOGO DEL CENTRO -->
+    <div class="logo">
+      <!-- Sustituye la URL por la del logo -->
+      <img src="https://TU_URL_DEL_LOGO_AQUI.png" alt="IES Arxiduc">
+    </div>
+
+    <!-- SPINNER -->
+    <div class="spinner" aria-hidden="true"></div>
+
+    <!-- TEXTO -->
+    <h1>Inventari IES Arxiduc</h1>
+    <p>Redirigint a l'aplicació…</p>
+
+  </div>
+</body>
 </html>
